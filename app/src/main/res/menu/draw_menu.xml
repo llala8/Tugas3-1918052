@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="ALARM"/>
+        <item android:id="@+id/nav_foto"
+            android:icon="@drawable/ic_foto"
+            android:title="FOTO"/>
+        <item android:id="@+id/nav_paint"
+            android:icon="@drawable/ic_paint"
+            android:title="PAINT"/>
+    </group>
+</menu>
